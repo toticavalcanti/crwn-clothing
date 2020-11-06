@@ -1,6 +1,7 @@
 ﻿[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)<br />
 
-# This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# This project was bootstrapped with:<br />
+[Create React App](https://github.com/facebook/create-react-app).
 
 ![alt text](https://iili.io/2rGTCB.png)
 ## Available Scripts
