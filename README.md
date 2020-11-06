@@ -3,7 +3,7 @@
 # This project was bootstrapped with:<br />
 ## [Create React App](https://github.com/facebook/create-react-app).
 <br />
-##Link to the online store:
+## Link to the online store:
 [Store](https://crwn-toti-live.herokuapp.com/shop)
 
 ![alt text](https://iili.io/2rGTCB.png)
