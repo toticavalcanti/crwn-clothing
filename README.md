@@ -1,8 +1,8 @@
 ﻿[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)<br />
 
-# This project was bootstrapped with:<br />
+# This project was bootstrapped with:
 ## [Create React App](https://github.com/facebook/create-react-app).
-<br />
+
 ## Link to the online store:
 [Store](https://crwn-toti-live.herokuapp.com/shop)
 
