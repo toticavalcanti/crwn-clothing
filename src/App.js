@@ -2,20 +2,20 @@ import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-import Header from '../components/header/header.component';
+import Header from './components/header/header.component';
 
-import HomePage from '../pages/homepage/homepage.component';
-import ShopPage from '../pages/shop/shop.component';
-import ContactPage from '../pages/contact/contact.component';
-import SigninAndSignupPage from '../pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
-import CheckoutPage from '../pages/checkout/checkout.component';
+import HomePage from './pages/homepage/homepage.component';
+import ShopPage from './pages/shop/shop.component';
+import ContactPage from './pages/contact/contact.component';
+import SigninAndSignupPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
+import CheckoutPage from './pages/checkout/checkout.component';
 
-import { setCurrentUser } from '../redux/user/user.actions';
-import { getCurrentUser } from '../redux/user/user.selectors';
+import { setCurrentUser } from './redux/user/user.actions';
+import { getCurrentUser } from './redux/user/user.selectors';
 
-import { auth, createUserProfileDocument } from '../firebase/firebase.utils';
+import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
-import './App.scss';
+import './App.css';
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
