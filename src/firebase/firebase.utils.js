@@ -3,14 +3,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: "AIzaSyCQjMmOf4oakoAjqhlTPZugeSGFwVu9ks4",
-  authDomain: "crwn-db-b2093.firebaseapp.com",
-  databaseURL: "https://crwn-db-b2093.firebaseio.com",
-  projectId: "crwn-db-b2093",
-  storageBucket: "crwn-db-b2093.appspot.com",
-  messagingSenderId: "438318017828",
-  appId: "1:438318017828:web:2aa31267748e2d3ad897b1",
-  measurementId: "G-7DH5TLEH2J"
+  apiKey: "AIzaSyC1fQ1aj1GNayGa6M3Q3prnnMDnOfipYwA",
+  authDomain: "crwn-db-toti.firebaseapp.com",
+  databaseURL: "https://crwn-db-toti.firebaseio.com",
+  projectId: "crwn-db-toti",
+  storageBucket: "crwn-db-toti.appspot.com",
+  messagingSenderId: "545321621841",
+  appId: "1:545321621841:web:8f8aa498eb1eb2ca345b70",
+  measurementId: "G-73MNV1KK24"
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
