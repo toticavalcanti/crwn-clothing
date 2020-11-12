@@ -1,35 +1,24 @@
-import { push } from 'connected-react-router';
 import React from 'react';
-import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 
-import {
-  MenuItemContainer,
-  BackgroundImageContainer,
-  ContentContainer,
-  ContentTitle,
-  ContentSubtitle
-} from './menu-item.styles';
+import './menu-item.styles.scss';
 
-const MenuItem = ({ title, imageUrl, small, linkTo, push }) => (
-  <MenuItemContainer small={small} onClick={() => push(linkTo)}>
-    <BackgroundImageContainer
-      className='background-image-container'
+const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
+  <div
+    className={`${size} menu-item`}
+    onClick={() => history.push(`${match.url}${linkUrl}`)}
+  >
+    <div
+      className='background-image'
       style={{
         backgroundImage: `url(${imageUrl})`
       }}
     />
-    <ContentContainer className='content'>
-      <ContentTitle className='title'>{title.toUpperCase()}</ContentTitle>
-      <ContentSubtitle className='subtitle'>SHOP NOW</ContentSubtitle>
-    </ContentContainer>
-  </MenuItemContainer>
+    <div className='content'>
+      <h1 className='title'>{title.toUpperCase()}</h1>
+      <span className='subtitle'>SHOP NOW</span>
+    </div>
+  </div>
 );
 
-const mapDispatchToProps = dispatch => ({
-  push: route => dispatch(push(route))
-});
-
-export default connect(
-  null,
-  mapDispatchToProps
-)(MenuItem);
+export default withRouter(MenuItem);

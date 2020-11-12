@@ -1,6 +1,6 @@
-* {
+body {
   font-family: 'Open Sans Condensed';
-  box-sizing: border-box;
+  padding: 20px 40px;
 }
 
 a {
@@ -8,17 +8,6 @@ a {
   color: black;
 }
 
-button {
-  border: none;
-  cursor: pointer;
-}
-
-input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0 50px white inset;
-  -webkit-text-fill-color: grey;
-}
-
-input:-webkit-autofill:focus {
-  -webkit-box-shadow: 0 0 0 50px white inset;
-  -webkit-text-fill-color: grey;
+* {
+  box-sizing: border-box;
 }
