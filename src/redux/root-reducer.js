@@ -1,3 +1,5 @@
+// Store App state, and pass into respective  
+// components as props using selectors
 import { combineReducers } from 'redux';
 import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
