@@ -115,4 +115,4 @@ export function* userSagas() {
     call(onSignUpStart),
     call(onSignUpSuccess)
   ]);
-}
+} 
