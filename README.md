@@ -1,6 +1,14 @@
-## Application demo [deployment](https://crwn-toti-live.herokuapp.com/).
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
-We are now adding styled-components to explore CSS-in-JS. We convert over our Homepage component, Header component and CustomButton component to use styled-components instead of scss.
+<br />
+
+# This project was bootstrapped with:
+## [Create React App](https://github.com/facebook/create-react-app).
+
+## Link to the online store:
+[Store](https://crwn-toti-live.herokuapp.com/shop)
+
+![alt text](https://iili.io/2rGTCB.png)
 
 # How to fork and clone
 
